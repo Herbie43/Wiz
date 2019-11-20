@@ -1,11 +1,11 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.21",
+	"EngineAssociation": "4.23",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Wizard",
+			"Name": "WizardSrc",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
@@ -15,5 +15,8 @@
 			"Name": "AdvancedSteamSessions",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
 	]
 }
